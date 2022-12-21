@@ -19,14 +19,14 @@ from pathlib import Path
 # In[8]:
 
 
-dataset_train_dir = Path(r'C:\Users\e109513\OneDrive - Tokio Marine Seguradora S A\Área de Trabalho\Concreto\Treino')
-dataset_validation_dir = Path(r'C:\Users\e109513\OneDrive - Tokio Marine Seguradora S A\Área de Trabalho\Concreto\Validação')
+dataset_train_dir = Path(r'C:\Users\Victor\OneDrive - Área de Trabalho\Concreto\Treino')
+dataset_validation_dir = Path(r'C:\Victor\e109513\OneDrive - Área de Trabalho\Concreto\Validação')
 
-dataset_train_normal = len(os.listdir(r'C:\Users\e109513\OneDrive - Tokio Marine Seguradora S A\Área de Trabalho\Concreto\Treino\Normal'))
-dataset_train_rachadura = len(os.listdir(r'C:\Users\e109513\OneDrive - Tokio Marine Seguradora S A\Área de Trabalho\Concreto\Treino\Rachadura'))
+dataset_train_normal = len(os.listdir(r'C:\Users\Victor\OneDrive - Área de Trabalho\Concreto\Treino\Normal'))
+dataset_train_rachadura = len(os.listdir(r'C:\Users\Victor\OneDrive - Área de Trabalho\Concreto\Treino\Rachadura'))
 
-dataset_validation_normal = len(os.listdir(r'C:\Users\e109513\OneDrive - Tokio Marine Seguradora S A\Área de Trabalho\Concreto\Validação\Normal'))
-dataset_validation_rachadura = len(os.listdir(r'C:\Users\e109513\OneDrive - Tokio Marine Seguradora S A\Área de Trabalho\Concreto\Validação\Rachadura'))
+dataset_validation_normal = len(os.listdir(r'C:\Users\Victor\OneDrive - Área de Trabalho\Concreto\Validação\Normal'))
+dataset_validation_rachadura = len(os.listdir(r'C:\Users\Victor\OneDrive - Área de Trabalho\Concreto\Validação\Rachadura'))
 
 print('Train Normal: %s' % dataset_train_normal)
 print('Train Rachadura: %s' % dataset_train_rachadura)
